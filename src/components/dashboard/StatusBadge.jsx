@@ -1,0 +1,1 @@
+export default function StatusBadge({ status }) { var colors = { 'Menunggu': '#FEB93C', 'Diproses': '#50A9FF', 'Selesai': '#4ECDB4' }; var style = { background: colors[status] + '20', color: colors[status], padding: '4px 12px', borderRadius: '50px', fontSize: '12px', fontWeight: '600' }; return <span style={style}>{status}</span> }
